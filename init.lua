@@ -1,0 +1,3 @@
+require("bjartur")
+print("hello")
+
