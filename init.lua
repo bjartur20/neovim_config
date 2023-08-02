@@ -1,3 +1,2 @@
 require("bjartur")
-print("hello")
-
+require("bjartur.packer")

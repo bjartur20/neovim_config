@@ -1,2 +1,2 @@
 require("bjartur.remap")
-print("hello from Bjartur")
+require("bjartur.set")
