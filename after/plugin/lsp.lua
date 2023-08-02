@@ -9,7 +9,7 @@ lsp.ensure_installed({
   'rust_analyzer',
 })
 
-local cmp require('cmp')
+local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 local cmp_mappints = lsp.defaults.cmp_mappings({
   ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
